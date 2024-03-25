@@ -40,7 +40,28 @@ int main()
 
 		switch (pilihan)
 		{
-
+		case 1:
+			input();
+			cout << "hasil penjumlahan = " << penjumlahan(a, b) << endl;
+			system("pause");
+			break;
+		case 2:
+			input();
+			cout << "hasil pengurangan = " << pengurangan(a, b) << endl;
+			system("pause");
+			break;
+		case 3:
+			input();
+			cout << "perkalian = " << perkalian(a, b) << endl;
+			system("pause");
+			break;
+		case 4:
+			input();
+			cout << "hasil pembagian = " << pembbagian(a, b) << endl;
+			system("pause");
+			break;
+		case 5:
+			break;
 		}
 	}
 }
