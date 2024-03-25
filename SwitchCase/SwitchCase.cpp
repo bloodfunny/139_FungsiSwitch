@@ -57,10 +57,13 @@ int main()
 			break;
 		case 4:
 			input();
-			cout << "hasil pembagian = " << pembbagian(a, b) << endl;
+			cout << "hasil pembagian = " << pembagian(a, b) << endl;
 			system("pause");
 			break;
 		case 5:
+			break;
+		default:
+			cout << "menu tidak tersedia silahkan pilih lagi !!!" << endl;
 			break;
 		}
 	}
